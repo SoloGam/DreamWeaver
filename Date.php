@@ -25,7 +25,7 @@ date_default_timezone_set("Europe/Bucharest");
 	
 	$colors = ["red", "green", "blue"];
 	foreach($colors as $color) {
-		echo "<div style=\"color:$color;\">"$color"</div>";
+		echo "<div style=\"color:$color;\"> $color </div>";
 	}
 ?>
 
