@@ -2,6 +2,9 @@
     $page = $_SERVER['PHP_SELF'];
     $sec = "1";
     header("Refresh: $sec; url=$page");
+//    header("Refresh: 1");
+
+// 	<meta http-equiv="refresh" content="1">
     
     date_default_timezone_set("Europe/Bucharest");
 ?>
@@ -32,11 +35,15 @@
         echo "<div class=\"month\">";
         echo date("l.j.F.Y");
         echo "</div>";
-        
+    echo "<span class=\"Google\">" ;   
     echo "<a href=\"https://www.google.ro/?hl=ro\"><div class=\"Google\"></div></a>";
-    echo "<a href=\"https://www.youtube.com/?gl=RO&hl=ro\"><div class=\"Youtube\"></div></a>";
-    echo "<a href=\"https://www.facebook.com/\"><div class=\"Facebook\"></div></a>";
-    
+    echo "</span>";
+	echo "<span class=\"Youtube\">";
+	echo "<a href=\"https://www.youtube.com/?gl=RO&hl=ro\"><div class=\"Youtube\"></div></a>";
+    echo "</span>";
+	echo "<span class=\"Facebook\">";
+	echo "<a href=\"https://www.facebook.com/\"><div class=\"Facebook\"></div></a>";
+    echo "</span>";
     
     ?>
 </body>
