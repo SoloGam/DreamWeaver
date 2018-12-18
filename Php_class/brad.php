@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<!--	<meta http-equiv="refresh" content="1"-->
+	<meta http-equiv="refresh" content="1"
 <meta charset="UTF-8">
 <title>Brad</title>
 	<style>
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-	<?
+	<?php
 	$w = 10;
 	
 	for ($k = 0; $k<4; $k++ )

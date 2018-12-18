@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<?
+	<?php
 	$pass=' ';
 	if (isset($_POST['pass'])) $pass = $_POST['pass'];
 	?>
@@ -19,7 +19,7 @@
 	
 	
 	
-	<?
+	<?php
 		/*
 			daca contine anumite grupe de caractere: 
 					litere mici; 
