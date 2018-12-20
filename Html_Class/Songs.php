@@ -2,7 +2,7 @@
 
 echo file_get_contents("html/header.html");
 
-$file = fopen("songs-with-titles.txt", "r");
+$file = fopen("Songs/songs-with-titles.txt", "r");
 
 echo "<select>";
 while(!feof($file)) {
