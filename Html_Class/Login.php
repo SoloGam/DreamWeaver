@@ -16,6 +16,8 @@ $uname = $_POST["uname"];
 if (isset($users[$uname])) {
 	if ($_POST["psw"] ==$users[$uname]) {
 		echo "Welcome $uname!";
+		session_start();
+		$_SESSION['user'] = $uname ;
 	} else {
 		echo "User and password don't match";
 	}
