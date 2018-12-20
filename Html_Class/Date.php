@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>Tabla Inmultirii</title>
 <link href="Css/Date.css" rel="stylesheet" type="text/css">
     <style>
      
@@ -23,13 +23,13 @@ date_default_timezone_set("Europe/Bucharest");
 //		echo $i . "<br/>";
 //	}
 	for($j=1; $j<=10; $j++) {
-		echo"<div style=\"color:#128600; border: medium solid rgba(0,0,0,1.00); width: 100px; margin-top: 51px; \">";
+		echo '<div class="Produs">';
 		for($i=1; $i<=10; $i++) {
 			echo "$j x $i = " . $j * $i. "<br/>";
 		}
-		echo"</div>";
+		echo'</div>';
 	}
-	
+//	style="color:#128600; border: medium solid rgba(0,0,0,1.00); width: 100px; margin-top: 51px; flex-wrap: wrap;"
 	
 ?>
 

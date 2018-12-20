@@ -1,9 +1,8 @@
 @charset "UTF-8";
 .Produs{
-    color: rgba(255,0,4,1.00);
-    border: medium solid rgba(0,0,0,1.00);
-    width: 100px;
-    display: block;
-    margin-top: 51px;
-    border-radius: 50px;
+	color: #00521A;
+	border: medium solid rgba(0,0,0,1.00);
+	width: 100px;
+	display: block;
+	margin-top: 19px;
 }
