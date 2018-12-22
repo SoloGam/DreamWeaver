@@ -4,11 +4,10 @@
 <meta charset="UTF-8">
 <title>exercitii</title>
 	<style>
-		body {font-family: monospace;}
-        .body{
-    color: rgba(255,0,4,1.00);
-    font-weight: bold;
-    font-size: 151px;
+		body {font-family: Lucida Console ;
+                color: rgba(255,0,4,1.00);
+                font-weight: bold;
+                font-size: 70px;
         }
 	</style>
 </head>
