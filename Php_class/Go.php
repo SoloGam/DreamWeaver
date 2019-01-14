@@ -1,27 +1,11 @@
 <?php
-	class Car {
-		public $total_fuel;
-		public $crt_fuel;
-		public $consumation;
-		
-		function fill($qauntity) {
-			$this -> crt_fuel += $quantity;
-		}
-		
-		function go($distance) {	
-			$this -> crt_fuel -= $this -> consumation/100 * $distance;
-		}
-		
-		function fuel_left() {
-			return $this -> crt_fuel *100 / $this -> total_fuel;
-		}
-	}
+	require 'class_car.php';
 ?>
 <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>Fuel/Distance</title>
 </head>
 
 	<?php
@@ -37,7 +21,8 @@ $car -> consumation = 10;// L/100km
 		$car = $_SESSION['car'];	
 	}
 	if (isset($_POST['distance'])) {
-		$car -> go ($_POST['distance']);
+		
+		echo $car -> go ($_POST['distance']);
 		echo "Benzina Ramasa: {$car -> fuel_left()}%";
 		$_SESSION['car'] = $car;
 	}

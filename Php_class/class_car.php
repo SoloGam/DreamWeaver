@@ -8,22 +8,17 @@
 			$this -> crt_fuel += $quantity;
 		}
 		
-		function go($distance) {	
-			$this -> crt_fuel -= $this -> consumation/100 * $distance;
-		}
+		function go($distance) {
+			$needed = $this -> consumation/100 * $distance;
+			if ($this -> crt_fuel > $needed) {
+			$this -> crt_fuel -= $needed;
+		  } else {
+			return "Nu ai suficient combustibil pentru $distance km! <br>";
+		  }
+	    }
 		
 		function fuel_left() {
 			return $this -> crt_fuel *100 / $this -> total_fuel;
 		}
 	}
-
-$car = new Car();
-
-$car -> total_fuel = 50;//L
-$car -> crt_fuel = 25;//L
-$car -> consumation = 10;// L/100km 
-
-$car -> go (100);
-echo $car -> fuel_left();
-
 ?>
