@@ -13,7 +13,7 @@
 	?>
 	
 	<form method="post">
-		Parola  <input type="text" value="<?=$pass?>" placeholder="Type your password" name="pass" ><br>
+		Parola  <input type="password" value="<?=$pass?>" placeholder="Type your password" name="pass" ><br>
 				<input type="submit" value="Trimite">
 	</form>
 	
@@ -24,11 +24,9 @@
 			daca contine anumite grupe de caractere: 
 					litere mici; 
 					litere mari; 
-					caractere speciale !@#$%ˆ&*()_+=<>?,./;
-					cifre 
-					lungime
+					caractere speciale !@#$%ˆ&*()_+=<>?,.					lungime
 		*/
-		
+		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 		$score = 0;
 	    
 	    $search = 0;

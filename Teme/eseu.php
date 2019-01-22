@@ -1,11 +1,32 @@
-<?php
-    echo file_get_contents("Html/head.html");
+<!doctype html>
+<html>
+<head>
+<!--<meta http-equiv="refresh" content="1">-->
+<meta charset="utf-8">
+<title>Eseu</title>
+</head>
 
-    $strg = 'The PHP development team announces the immediate availability of PHP 7.1.25. This is a security release.';
+<body>
+    
+    <?php
+    $strg =' ';
+    if (isset($_POST['txt'])) $strg = $_POST['txt'];
+    ?>
+    <form method="post">
+    
+        <input type="text" id="strg" value="<?=$strg?>"> 
+    
+    </form>
 
-print_r(str_word_count($strg, 0));
-//print_r(array_count_values($strg));
+    <?php
 
-        
-    echo file_get_contents("Html/foot.html");    
-?>
+    
+
+        print_r(str_word_count($strg, 0));
+        //print_r(array_count_values($strg));
+   
+    ?>
+    
+   
+</body>
+</html>
