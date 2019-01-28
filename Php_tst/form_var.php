@@ -11,9 +11,11 @@
 ?>
 	
 	<form method="post">
-		<input type="text" name="text">
+		<input id="test" type="text" name="text">
 		<input type="submit" value="Test">
 	</form>
-	
+	<script>
+		document.getElementById ("test")
+	</script>
 </body>
 </html>
