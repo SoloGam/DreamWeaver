@@ -66,13 +66,89 @@
 //		console.log (typeof obj.whatTypeIsIt);
 //		console.log (obj.company);
 		
-		var car = 'Ford';
+//		var car = 'Ford';
+//		
+//		if (1 != 2) {
+//			car = 'Audi';
+//		};
+//		
+//		console.log (car);
 		
-		if (1 != 2) {
-			car = 'Audi';
-		};
+//		var name = 'Alex has ' 
+//		var x = 15;
+//		var y = 5;
+//		var total = name + (x + y) + ' aplles';
+//		console.log (total);
 		
-		console.log (car);
+//		var x = 10;
+//		x %= 5;
+//		
+//		console.log (x);
+		
+//		var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//		
+//		function getOddNumeber (data) {
+//			if (typeof data != 'object'){
+//				throw new Error ('You have to provide an object!');
+//				return;
+//			}
+//			var newData = [];
+//				for (var i = 0; i <= data.length; i++) {
+//					if ((data[i] % 2) === 0) {
+//						newData.push(data[i]);
+//					}
+//				}
+//			return newData;
+//		}
+//		
+//		console.log (getOddNumeber('Fake'));
+		
+//		function getAge (birthDate) {
+//			var now = new Date();
+//			var birth = new Date(birthDate);
+//			var age = now.getFullYear() - birth.getFullYear();
+//			
+//			var month = now.getMonth() - birth.getMonth();
+//			
+//			if (month < 0 ) {
+//				age--;
+//			}
+//			return age;
+//			
+//		}
+//		
+//		var getAge = getAge('1999-04-06');
+//		console.log(getAge)
+//		
+//		var str = '1';
+//		var nr = 1;
+//		
+//		console.log (str == 1);
+//		console.log (str === 1);
+		
+//		var x = 5;
+//		var y = 6;
+//		
+//		var compare = x >= 5 && y >= 7;
+//		var compare_1 = x >= 5 || y >= 7;
+//		
+//		console.log (compare);
+//		console.log (typeof compare);
+//		console.log (compare_1);
+//		console.log (typeof compare_1);
+		
+		var Boom = function() {
+			return this;
+		}
+		
+		Boom.prototype.explosion = function() {
+			return 'Boom';
+		}
+		
+		var boom = new Boom;
+		
+		console.log (boom instanceof Boom);
+		console.log (Boom);
 	</script>
 </body>
 </html>
