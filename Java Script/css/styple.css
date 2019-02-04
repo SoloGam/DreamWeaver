@@ -1,0 +1,37 @@
+ul {
+	display: inline;
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+}
+
+ul li.orange, body.orange {
+	background-color: #F18F01;
+}
+
+ul li.blue, body.blue {
+	background-color: #048BA8;
+}
+
+ul li.green, body.green, body {
+	background-color: #99c24d;
+}
+
+ul li.red, body.red {
+	background-color: #E10000;
+}
+
+ul li.night_blue, body.night_blue {
+	background-color: #010D93;
+}
+ul li.pink, body.pink {
+	background-color: #FC00FF;
+}
