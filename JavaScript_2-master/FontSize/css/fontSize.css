@@ -1,0 +1,28 @@
+body {
+  background-color: antiquewhite;
+}
+
+button {
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 2px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #4CAE51;
+  color: #FFFFFF;
+}
+
+#container {
+  position: relative;
+}
+
+#buttons {
+  position: absolute;
+  left: -32px;
+  top: 0;
+}
