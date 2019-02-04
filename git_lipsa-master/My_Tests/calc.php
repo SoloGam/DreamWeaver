@@ -16,7 +16,7 @@
       <option value="/">/</option>
     </select>
     <input type="number" placeholder="Numarul b: " name="b">
-    <input type="submit" value="Trimite">
+    <input type="submit" value="=">
  </form>
 
  <?php

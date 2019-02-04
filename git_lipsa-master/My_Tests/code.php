@@ -10,13 +10,20 @@
       case '+' :
         echo $a + $b;
         break;
+            
       case '-' :
           echo $a - $b;
         break;
-
-      default:
-        // code...
+     
+      case '*' :
+          echo $a * $b;
         break;
+            
+      case '/' :
+          echo $a / $b;
+        break;
+
+      
     }
 
 ?>
